@@ -105,7 +105,6 @@ The admin menu gives access to several useful real time reports stathat show var
 + Users
 + Sync clients (each device is identified by a unique code generated during the first sync)
 + Sync sessions
-+ Activity
 
 ## Sync On/Off toggles ![sync on-off](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/sync-on-off.png)
 
@@ -118,6 +117,9 @@ The page Activity shows the synchronized data in real time: rows inserted/update
 
 ## Dashboard
 A monthly dashboard summarizes the usage of your sync proxies.
+
+![dashboard](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/dashboard.png)
+
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
