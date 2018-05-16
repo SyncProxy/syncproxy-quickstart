@@ -8,7 +8,7 @@ You will learn how to setup a powerful synchronization without coding, and how t
 ## Customization
 **SyncProxy** can be either accessed online or installed on site. This tutorial describes the online use of **SyncProxy**, but it is also perfectly relevant to a custom installation, simply replace **my.syncproxy.com** with your own url.
 
-## To start
+## Getting started
 First create an account on https://my.syncproxy.com and complete your profile (this is free and takes only one minute). You can later reuse the same account to create other proxies for different apps.
 Since you will be the administrator of the proxy, don't forget to check the checkbox "I will manage proxies or groups" and to fill-in your short company info, this will give you access to the admin menu:
 
