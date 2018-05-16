@@ -17,5 +17,5 @@ Since you will be the administrator of the proxy, don't forget to check the chec
 Creating a sync proxy is very easy: just click "New proxy" button from the "Proxies" page.
 
 ## Links
-To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.
-Also have a look at the [Quick start guide for Ionic](https://github.com/SyncProxy/syncproxy-quickstart-ionic)
+To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com. 
+Also have a look at the [Quick start guide for Ionic](https://github.com/SyncProxy/syncproxy-quickstart-ionic) which explains how to easily add sync client to your mobile apps.
