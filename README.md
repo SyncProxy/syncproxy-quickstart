@@ -21,7 +21,7 @@ Creating a sync proxy is very easy: just click "New proxy" button from the "Prox
 **Important**: make sure your firewall is set correctly to accept the connection using the listening port of your database server.
 
 ## Discovering the schema
-Once your have checked database connection, select the proxy from the list in the admin menu.
+Once your have checked database connection, select the proxy from the list in the admin menu, then click to "Database schema":
 
 ![select proxy](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/select-proxy.png)
 
