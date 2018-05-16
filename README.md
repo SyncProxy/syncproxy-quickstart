@@ -44,6 +44,7 @@ This will open the Group page:
 ![group](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group.png)
 
 > Give a friendly name to the group, the click on "Users":
+![group users](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group-users.png)
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
