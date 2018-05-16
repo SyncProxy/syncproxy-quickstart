@@ -94,12 +94,30 @@ Since a user may belong to several groups, its filters from within each group wi
 To summarize what happens when combining sync filters or sync profiles, simply think of it the intuitive way: if a user is granted the right to receive some data in a context, he or she will receive all data combined by the best rights he/she has been granted in different groups.
 > **Important: when no filter is defined on a table, all data from this table are sent during synchronizations.**
 
-## Sync On/Off toggles
-Using the Sync on/off toggles, you can easily inactivate the synchronizations for a user, a group or a proxy:
-
-![sync on-off](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/sync-on-off.png)
+## Conflicts handling
+In some cases when the users work offline, it may happen that the same data (row or record) be modified simultaneously on the mobile app and in the database. In such a case, during the next sync inputs conflict and a version of the same row (typically the oldest one) is destroyed  and replaced by the other.  
+The conflicted rows destroyed during sync are saved and can be retrieved from a table named *ProxXXX_conf_TableName* in your database (for example: *ProxF3Z1_conf_Company*).
 
 The effect of sync inactivation is immediate.
+
+## Real time reports
+The admin menu gives access to several useful real time reports stathat show various statistics on sync sessions:
++ Users
++ Sync clients (each device is identified by a unique code generated during the first sync)
++ Sync sessions
++ Activity
+
+## Sync On/Off toggles ![sync on-off](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/sync-on-off.png)
+
+Using the Sync on/off toggles, you can easily inactivate the synchronizations for a sync client, a user, a group, or a whole proxy, respectively from the pages Sync clients, Users, Groups, and Proxies:
+
+## Activity monitoring
+The page Activity shows the synchronized data in real time: rows inserted/updated/deleted, sync durations...
+
+![activity](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/activity.png)
+
+## Dashboard
+A monthly dashboard summarizes the usage of your sync proxies.
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
