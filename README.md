@@ -95,7 +95,10 @@ To summarize what happens when combining sync filters or sync profiles, simply t
 > **Important: when no filter is defined on a table, all data from this table are sent during synchronizations.**
 
 ## Sync On/Off toggles
+Using the Sync on/off toggles, you can easily inactivate the synchronizations for a user, a group or a proxy:
+![sync on-off](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/sync-on-off.png)
 
+The effect of sync inactivation is immediate.
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
