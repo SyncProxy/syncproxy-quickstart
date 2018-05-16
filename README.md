@@ -1,4 +1,3 @@
-
 # How to create a synchronization proxy with SyncProxy
 This tutorial will show you to how to setup a synchronization proxy with SyncProxy to enable bidirectional, real time reactive synchronization between your backend database (MySQL, SQL Server, MongoDB...) and your offline apps embedding free open source SyncProxy client.
 
