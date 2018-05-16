@@ -18,4 +18,4 @@ Creating a sync proxy is very easy: just click "New proxy" button from the "Prox
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.
-[Quick start guide for Ionic](https://github.com/SyncProxy/syncproxy-quickstart-ionic)
+Also have a look at the [Quick start guide for Ionic](https://github.com/SyncProxy/syncproxy-quickstart-ionic)
