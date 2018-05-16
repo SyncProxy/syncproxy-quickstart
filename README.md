@@ -96,6 +96,7 @@ To summarize what happens when combining sync filters or sync profiles, simply t
 
 ## Sync On/Off toggles
 Using the Sync on/off toggles, you can easily inactivate the synchronizations for a user, a group or a proxy:
+
 ![sync on-off](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/sync-on-off.png)
 
 The effect of sync inactivation is immediate.
