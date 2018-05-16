@@ -25,11 +25,9 @@ Once your have checked database connection, select the proxy from the list in th
 
 ![select proxy](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/select-proxy.png)
 
-The discovered schema looks like below:
+The discovered schema looks like below. Simply select the tables and columns you want to sync, and save your schema once you are done.
 
 ![select proxy](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/schema.png)
-
-Here you can easily select the tables and columns to sync. Once you are done, don't forget to save your schema.
 
 
 ## Links
