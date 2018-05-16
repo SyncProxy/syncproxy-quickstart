@@ -59,7 +59,7 @@ The sync profile attached to the group will determine *How* and *What* your user
 > Back to the Group page (see above), select the desired syncs types for each table.
 
 ## Creating filters
-
+Data filtering is a very powerful feature that will save you many hours of hard coding
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
