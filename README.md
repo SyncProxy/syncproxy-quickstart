@@ -76,7 +76,20 @@ Note the ability to use *super variables* embedded within opening "_%" and closi
 + _%USER_EMAIL%_
 + _%USER_GROUPS%_
 
-which contain respectively user's name, last name, email address, and the list of names of the groups to which the user belongs. Those super variables are resolved at sync time, which makes them very efficient to customize the data filtering.
+which contain respectively user's name, last name, email address, and the list of groups to which the user belongs. Those super variables are resolved at sync time, which makes them very efficient to customize the data filtering.
+
+## Combined filters
+An unlimited number of filters can be created for each table within a group. This will result in sending to the users the LOGICAL OR combination of filters. For example, if the two following filters are defined on the table Company:
++ (Small companies): SELECT * FROM Company WHERE numEmployees < 100
++ (Large companies): SELECT * FROM Company WHERE numEmployees > 1000
+
+then all small-size companies data PLUS big-size companies data will be sent to the users of the group (equivalent to SELECT...FROM...WHERE...OR ...)
+
+## Combined sync profiles
+Since a user may belong to several groups, its filters from within each group will combine the same way as they combine within one group. That means that the user will receive the LOGICAL OR combination of filters of each groups he belongs to.  
+To memorize what happends when combining sync filters or sync profiles, simply think of it the intuitive way: if a user is granted the right to receive some data in a context, he or she will receive all data combined by the best rights he/she has been granted in different groups. That means: all data.
+> **Important: when no filter is defined on a table, all its data are sent during synchronizations.**
+
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
