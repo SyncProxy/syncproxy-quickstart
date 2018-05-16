@@ -47,6 +47,20 @@ This will open the Group page:
 
 ![group users](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group-users.png)
 
+The page shows the list of current members of the group, and pending invitations as well.  
+To invite new users, simply type their emails and click on "Invite users". They will be notified automatically by email.  
+At any moment, you can revoke members or pending invitations. As an admin, you're the Boss, after all !
+
+## Setting the sync profile of the group
+The sync profile attached to the group will determine *How* and *What* your users will sync:
++ Types of synchronizations for each table and for both mobile/server directions: *Reactive Sync* / *(non reactive) Sync* / *No sync*
++ Data filtering for each table: using filters will restrain the data that will be sent to the user during synchronizations (filter has no effect on data synched from the mobile to the server).
+
+> Back to the Group page (see above), select the desired syncs types for each table.
+
+## Creating filters
+
+
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
 Also have a look at the [Quick start guide for Ionic](https://github.com/SyncProxy/syncproxy-quickstart-ionic) which explains how to easily add sync client to your mobile apps.
