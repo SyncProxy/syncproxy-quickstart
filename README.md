@@ -94,6 +94,8 @@ Since a user may belong to several groups, its filters from within each group wi
 To summarize what happens when combining sync filters or sync profiles, simply think of it the intuitive way: if a user is granted the right to receive some data in a context, he or she will receive all data combined by the best rights he/she has been granted in different groups.
 > **Important: when no filter is defined on a table, all data from this table are sent during synchronizations.**
 
+## Sync On/Off toggles
+
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
