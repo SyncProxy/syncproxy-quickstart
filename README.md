@@ -30,6 +30,10 @@ The discovered schema looks like below. Simply select the tables and columns you
 
 ![schema](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/schema.png)
 
+## Auto backendless database
+In the Proxy page, you will notice the "Auto backendless" database type. This means that the backend database will be managed by SyncProxy itself. This is well suited for mobile application without dedicated backend, which means that all data will flow from mobile to mobile only. A chat app is a good example of such an application.  
+In addition, the schema may be discovered from the data sent by the mobile app during the first syncs (in that case, the mobile database must be created by the app).
+
 ## Preparing the database for reactive syncs
 **SyncProxy** will add a bunch of structures to your database (depending on your database type: tables, triggers, stored procedures...) that will optimize change detection and enable real time reactive sync.
 
@@ -87,8 +91,8 @@ then all small-size companies data PLUS big-size companies data will be sent to 
 
 ## Combined sync profiles
 Since a user may belong to several groups, its filters from within each group will combine the same way as they combine within one group. That means that the user will receive the LOGICAL OR combination of filters of each groups he belongs to.  
-To memorize what happends when combining sync filters or sync profiles, simply think of it the intuitive way: if a user is granted the right to receive some data in a context, he or she will receive all data combined by the best rights he/she has been granted in different groups. That means: all data.
-> **Important: when no filter is defined on a table, all its data are sent during synchronizations.**
+To summarize what happens when combining sync filters or sync profiles, simply think of it the intuitive way: if a user is granted the right to receive some data in a context, he or she will receive all data combined by the best rights he/she has been granted in different groups.
+> **Important: when no filter is defined on a table, all data from this table are sent during synchronizations.**
 
 
 ## Links
