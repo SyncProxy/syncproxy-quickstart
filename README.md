@@ -44,6 +44,7 @@ This will open the Group page:
 ![group](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group.png)
 
 > Give a friendly name to the group, the click on "Users":
+
 ![group users](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group-users.png)
 
 ## Links
