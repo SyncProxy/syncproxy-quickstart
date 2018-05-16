@@ -60,7 +60,23 @@ The sync profile attached to the group will determine *How* and *What* your user
 > Back to the Group page (see above), select the desired syncs types for each table.
 
 ## Creating filters
-Data filtering is a very powerful feature that will save you many hours of hard coding
+Data filtering is a very powerful **SyncProxy** original built-in feature that will save you many hours of hard coding.
+
+The principle of filters is extra-simple: to restrain the data delivered to users during syncs, simply create a filter for the desired SQL table (or *collection*, in case NoSQL terminology applies to you). Use the exact same syntax as usually for querying your database, i.e.: SQL syntax for a SQL database (SQL Server, MySQL...), or NoSQL query for a NoSQL database such as MongoDB for instance.
+
+Example for SQL Server:
+![filter1](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter1.png)
+
+Example for MongoDB:
+![filter2](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter2.png)
+
+Note the ability to use *super variables* embedded within opening "_%" and closing "%_":
++ _%USER_NAME%_
++ _%USER_LASTNAME%_
++ _%USER_EMAIL%_
++ _%USER_GROUPS%_
+
+which contain respectively user's name, last name, email address, and the list of names of the groups to which the user belongs. Those super variables are resolved at sync time, which makes them very efficient to customize the data filtering.
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
