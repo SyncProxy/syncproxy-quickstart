@@ -25,6 +25,13 @@ Once your have checked database connection, select the proxy from the list in th
 
 ![select proxy](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/select-proxy.png)
 
+The discovered schema looks like below:
+
+![select proxy](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/schema.png)
+
+Here you can easily select the tables and columns to sync. Once you are done, don't forget to save your schema.
+
+
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
 Also have a look at the [Quick start guide for Ionic](https://github.com/SyncProxy/syncproxy-quickstart-ionic) which explains how to easily add sync client to your mobile apps.
