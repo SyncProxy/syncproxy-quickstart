@@ -1,3 +1,4 @@
+
 # How to create a synchronization proxy with SyncProxy
 This tutorial will show you to how to setup a synchronization proxy with SyncProxy to enable bidirectional, real time reactive synchronization between your backend database (MySQL, SQL Server, MongoDB...) and your offline apps embedding free open source SyncProxy client.
 
@@ -17,6 +18,8 @@ Since you will be the administrator of the proxy, don't forget to check the chec
 Creating a sync proxy is very easy: just click "New proxy" button from the "Proxies" page, then fill-in the database connection settings. Check the connection with "Test connection":
 
 ![new proxy](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/new-proxy.png)
+
+**Important**: make sure your firewall is set correctly to accept the connection using the listening port of your database server.
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
