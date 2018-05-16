@@ -16,7 +16,7 @@ Since you will be the administrator of the proxy, don't forget to check the chec
 ## Creating your first proxy
 Creating a sync proxy is very easy: just click "New proxy" button from the "Proxies" page, then fill-in the database connection settings. Check the connection with "Test connection":
 
-![admin menu](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/new-prpxy.png)
+![new proxy](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/new-proxy.png)
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
