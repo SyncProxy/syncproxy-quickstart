@@ -21,6 +21,9 @@ Creating a sync proxy is very easy: just click "New proxy" button from the "Prox
 
 **Important**: make sure your firewall is set correctly to accept the connection using the listening port of your database server.
 
+## Discovering the schema
+Once your have checked database connection, select the proxy from the list in the admin menu.
+
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
 Also have a look at the [Quick start guide for Ionic](https://github.com/SyncProxy/syncproxy-quickstart-ionic) which explains how to easily add sync client to your mobile apps.
