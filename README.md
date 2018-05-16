@@ -116,7 +116,7 @@ The page Activity shows the synchronized data in real time: rows inserted/update
 ![activity](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/activity.png)
 
 ## Dashboard
-A monthly dashboard summarizes the usage of your sync proxies.
+A monthly dashboard summarizes the usage of your sync proxies (you can toggle statistics between the currently selected proxy, and all proxies)
 
 ![dashboard](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/dashboard.png)
 
