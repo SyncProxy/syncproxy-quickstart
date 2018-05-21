@@ -31,15 +31,15 @@ The discovered schema looks like below. Simply select the tables and columns you
 ![schema](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/schema.png)
 
 ## Auto backendless / NoSQL database without schema
-In the Proxy page, you will notice the "Auto backendless" database type. This means that the backend database will be managed by SyncProxy itself. This is well suited for mobile application without dedicated backend, which means that all data will flow from mobile to mobile only. A chat app is a good example of such an application.  
+If you choose "Auto backendless" database type in the Proxy page, the backend database will be managed by SyncProxy itself. This is well suited for mobile application without dedicated backend, which means that all data will flow from mobile to mobile only. A chat app is a good example of such an application.  
 In addition, the schema may be discovered from the data sent by the mobile app during the first sync. The same applies for a NoSQL database created without any schema.
 
-Here are the rules to proceed:
-    1. The mobile database must be created by the mobile app, since SyncProxy sync client doesn't know the schema
-    2. The SyncProxy sync client must be used with the attribute **tablesToSync** containing the list of tables to sync (otherwise, sync client will throw a warning "No sync schema").
+Here are the rules to proceed:    
+    1. The mobile database must be created by the mobile app, since SyncProxy sync client doesn't know the schema.    
+    2. The SyncProxy sync client must be used with the attribute **tablesToSync** containing the list of tables to sync (otherwise, sync client will throw a warning "No sync schema").    
     3. Check the **Allow clients to sync without server schema** checkbox in the Database schema page
-    4. Enter data in the mobile app and launch sync, in order to provide a data structure sample to SyncProxy during the first sync.
-    5. Then go back to the Database schema page, verify that the schema has been discovered automtically, and uncheck the **Allow clients to sync without server schema** checkbox.
+    4. Enter data in the mobile app and launch sync, in order to provide a data structure sample to SyncProxy during the first sync.    
+    5. Then go back to the Database schema page, verify that the schema has been discovered automtically, and uncheck the **Allow clients to sync without server schema** checkbox.    
 
 Now you should be able to sync normally, like with any other kind of database.
 
