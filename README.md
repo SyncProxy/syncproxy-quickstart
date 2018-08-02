@@ -1,5 +1,5 @@
 # How to create a synchronization proxy with SyncProxy
-This tutorial will show you to how to setup a synchronization proxy with SyncProxy to enable bidirectional, real time reactive synchronization between your backend database (MySQL, SQL Server, MongoDB...) and your offline apps embedding (free open source) SyncProxy client.  
+This tutorial will show you to how to setup a synchronization proxy with SyncProxy to enable bidirectional, real time reactive synchronization between your backend database (MySQL, SQL Server, Oracle, MongoDB...) and your offline apps embedding (free open source) SyncProxy client.  
 You will learn how to setup a powerful synchronization without coding, and how to save yourself hours of hard work, avoiding the use of SDK's, REST API's or complex integrations.
 
 ## What is **SyncProxy** ?
@@ -75,7 +75,7 @@ The sync profile attached to the group will determine *How* and *What* your user
 ## Creating filters
 Data filtering is a very powerful **SyncProxy** original built-in feature that will save you many hours of hard coding.
 
-The principle of filters is extra-simple: to restrain the data delivered to users during syncs, simply create a filter for the desired SQL table (or *collection*, in case NoSQL terminology applies to you). Use the exact same syntax as usually for querying your database, i.e.: SQL syntax for a SQL database (SQL Server, MySQL...), or NoSQL query for a NoSQL database such as MongoDB for instance.
+The principle of filters is extra-simple: to restrain the data delivered to users during syncs, simply create a filter for the desired SQL table (or *collection*, in case NoSQL terminology applies to you). Use the exact same syntax as usually for querying your database, i.e.: SQL syntax for a SQL database (SQL Server, MySQL, Oracle...), or NoSQL query for a NoSQL database such as MongoDB for instance.
 
 Example for SQL Server:
 ![filter1](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter1.png)
