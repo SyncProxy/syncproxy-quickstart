@@ -122,7 +122,7 @@ Using the Sync on/off toggles, you can easily inactivate the synchronizations fo
 ## Activity monitoring
 The page Activity shows the synchronized data in real time: rows inserted/updated/deleted, sync durations...
 
-![activity](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/activity.png)
+![activity](https://github.com/SyncProxy/syncproxy-quickstart/blob/master/activity.png)
 
 ## Dashboard
 A monthly dashboard summarizes the usage of your sync proxies (you can toggle statistics between the currently selected proxy, and all proxies)
