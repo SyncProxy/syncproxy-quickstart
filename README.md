@@ -131,5 +131,5 @@ A monthly dashboard summarizes the usage of your sync proxies (you can toggle st
 
 
 ## Links
-To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to www.syncproxy.com.  
+To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to https://www.syncproxy.com.  
 Also have a look at the [Quick start guide for Ionic](https://github.com/SyncProxy/syncproxy-quickstart-ionic) which explains how to easily add sync client to your mobile apps.
