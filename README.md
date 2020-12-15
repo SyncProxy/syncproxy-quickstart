@@ -11,24 +11,20 @@ You will learn how to setup a powerful synchronization without coding, and how t
 ## Getting started
 First create an account on https://my.syncproxy.com and complete your profile (this is free and takes only one minute). You can later reuse the same account to create other proxies for different apps.
 Since you will be the administrator of the proxy, don't forget to check the checkbox "I will manage proxies or groups" and to fill-in your short company info, this will give you access to the admin menu:
-
-![admin menu](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/admin-menu.png)
+<img alt="admin menu" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/admin-menu.png" style="maxwidth:100%;">
 
 ## Creating your first proxy
 Creating a sync proxy is very easy: just click "New proxy" button from the "Proxies" page, then fill-in the database connection settings. Check the connection with "Test connection":
-
-![new proxy](https://github.com/SyncProxy/syncproxy-quickstart/blob/master/new-proxy.png)
+<img alt="admin menu" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/new-proxy.png" style="maxwidth:100%;">
 
 >**Important**: make sure your firewall is set correctly to accept the connection using the listening port of your database server.
 
 ## Discovering the schema
 Once your have checked database connection, select the proxy from the list in the admin menu, then click to "Database schema":
-
-![select proxy](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/select-proxy.png)
-
+<img alt="proxy selection" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/select-proxy.png" style="maxwidth:100%;">
 The discovered schema looks like below. Simply select the tables and columns you want to sync, and save your schema once you are done.
+<img alt="database schema" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/schema.png" style="maxwidth:100%;">
 
-![schema](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/schema.png)
 
 ## Auto backendless / NoSQL database without schema
 If you choose "Auto backendless" database type in the Proxy page, the backend database will be managed by SyncProxy itself. This is well suited for mobile application without dedicated backend, which means that all data will flow from mobile to mobile only. A chat app is a good example of such an application.  
@@ -54,13 +50,10 @@ To enable users to sync, you will create a group to which a sync profile will be
 > From the admin menu, click on "Groups" and click on "New group".  
 
 This will open the Group page:
-
-![group](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group.png)
-
+<img alt="group" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group.png" style="maxwidth:100%;">
 > Give a friendly name to the group, the click on "Users":
 
-![group users](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group-users.png)
-
+<img alt="group users" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group-users.png" style="maxwidth:100%;">
 The page shows the list of current members of the group, and pending invitations as well.  
 To invite new users, simply type their emails and click on "Invite users". They will be notified automatically by email.  
 At any moment, you can revoke members or pending invitations. As an admin, you're the Boss, after all !
@@ -78,11 +71,9 @@ Data filtering is a very powerful **SyncProxy** original built-in feature that w
 The principle of filters is extra-simple: to restrain the data delivered to users during syncs, simply create a filter for the desired SQL table (or *collection*, in case NoSQL terminology applies to you). Use the exact same syntax as usually for querying your database, i.e.: SQL syntax for a SQL database (SQL Server, MySQL, Oracle...), or NoSQL query for a NoSQL database such as MongoDB for instance.
 
 Example for SQL Server:
-![filter1](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter1.png)
-
+<img alt="sql filter" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter1.png" style="maxwidth:100%;">
 Example for MongoDB:
-![filter2](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter2.png)
-
+<img alt="mongodb filter" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter2.png" style="maxwidth:100%;">
 Note the ability to use *super variables* embedded within opening "_%" and closing "%_":
 + _%USER_NAME%_
 + _%USER_LASTNAME%_
@@ -126,9 +117,7 @@ The page Activity shows the synchronized data in real time: rows inserted/update
 
 ## Dashboard
 A monthly dashboard summarizes the usage of your sync proxies (you can toggle statistics between the currently selected proxy, and all proxies)
-
-![dashboard](https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/dashboard.png)
-
+<img alt="mongodb filter" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/dashboard.png" style="maxwidth:100%;">
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to https://www.syncproxy.com.  
