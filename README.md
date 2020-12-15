@@ -1,3 +1,4 @@
+
 # How to create a synchronization proxy with SyncProxy
 This tutorial will show you to how to setup a synchronization proxy with SyncProxy to enable bidirectional, real time reactive synchronization between your backend database (MySQL, SQL Server, Oracle, MongoDB...) and your offline apps embedding (free open source) SyncProxy client.  
 You will learn how to setup a powerful synchronization without coding, and how to save yourself hours of hard work, avoiding the use of SDK's, REST API's or complex integrations.
@@ -12,23 +13,23 @@ You will learn how to setup a powerful synchronization without coding, and how t
 First create an account on https://my.syncproxy.com and complete your profile (this is free and takes only one minute). You can later reuse the same account to create other proxies for different apps.
 Since you will be the administrator of the proxy, don't forget to check the checkbox "I will manage proxies or groups" and to fill-in your short company info, this will give you access to the admin menu:
 
-<img alt="admin menu" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/admin-menu.png" style="max-width:100%;">
+<img alt="admin menu" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/admin-menu.png" style="max-width:100% !important;">
 
 ## Creating your first proxy
 Creating a sync proxy is very easy: just click "New proxy" button from the "Proxies" page, then fill-in the database connection settings. Check the connection with "Test connection":
 
-<img alt="admin menu" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/new-proxy.png" width="100%" style="max-width:100%;">
+<img alt="admin menu" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/new-proxy.png" style="max-width:100% !important;">
 
 >**Important**: make sure your firewall is set correctly to accept the connection using the listening port of your database server.
 
 ## Discovering the schema
 Once your have checked database connection, select the proxy from the list in the admin menu, then click to "Database schema":
 
-<img alt="proxy selection" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/select-proxy.png" style="max-width:100%;">
+<img alt="proxy selection" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/select-proxy.png" style="max-width:100% !important;">
 
 The discovered schema looks like below. Simply select the tables and columns you want to sync, and save your schema once you are done.
 
-<img alt="database schema" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/schema.png" width="100%" style="max-width:100%;">
+<img alt="database schema" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/schema.png" style="max-width:100% !important;">
 
 ## Auto backendless / NoSQL database without schema
 If you choose "Auto backendless" database type in the Proxy page, the backend database will be managed by SyncProxy itself. This is well suited for mobile application without dedicated backend, which means that all data will flow from mobile to mobile only. A chat app is a good example of such an application.  
@@ -55,11 +56,11 @@ To enable users to sync, you will create a group to which a sync profile will be
 
 This will open the Group page:
 
-<img alt="group" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group.png" width="100%" style="max-width:100%;">
+<img alt="group" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group.png" style="max-width:100% !important;">
 
 > Give a friendly name to the group, the click on "Users":
 
-<img alt="group users" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group-users.png" width="100%" style="max-width:100%;">
+<img alt="group users" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/group-users.png" style="max-width:100% !important;">
 
 The page shows the list of current members of the group, and pending invitations as well.  
 To invite new users, simply type their emails and click on "Invite users". They will be notified automatically by email.  
@@ -79,11 +80,11 @@ The principle of filters is extra-simple: to restrain the data delivered to user
 
 Example for SQL Server:
 
-<img alt="sql filter" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter1.png" width="100%" style="max-width:100%;">
+<img alt="sql filter" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter1.png" style="max-width:100% !important;">
 
 Example for MongoDB:
 
-<img alt="mongodb filter" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter2.png" width="100%" style="max-width:100%;">
+<img alt="mongodb filter" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/filter2.png" style="max-width:100% !important;">
 
 Note the ability to use *super variables* embedded within opening "_%" and closing "%_":
 + _%USER_NAME%_
@@ -124,12 +125,12 @@ Using the Sync on/off toggles, you can easily inactivate the synchronizations fo
 ## Activity monitoring
 The page Activity shows the synchronized data in real time: rows inserted/updated/deleted, sync durations...
 
-![activity](https://github.com/SyncProxy/syncproxy-quickstart/blob/master/activity.png)
+<img alt="mongodb filter" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/activity.png" style="max-width:100% !important;">
 
 ## Dashboard
 A monthly dashboard summarizes the usage of your sync proxies (you can toggle statistics between the currently selected proxy, and all proxies)
 
-<img alt="mongodb filter" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/dashboard.png" width="100%" style="max-width:100%;">
+<img alt="mongodb filter" src="https://raw.githubusercontent.com/syncproxy/syncproxy-quickstart/master/dashboard.png" style="max-width:100% !important;">
 
 ## Links
 To access **SyncProxy** administration to setup your sync proxy and connect to your backend database, go to https://www.syncproxy.com.  
